@@ -7,7 +7,7 @@ import AddToFavouritesIcon from '../components/cardIcons/addToFavourites'
 
 const PopularMoviesPage = (props) => {
     
-    const { data, error, isLoading, isError } = useQuery('discover', getPopular)
+    const { data, error, isLoading, isError } = useQuery("popular", getPopular)
 
     if (isLoading) {
         return <Spinner />

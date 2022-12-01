@@ -88,10 +88,10 @@ export const getPopular = () => {
         });
 };
 
-//get the recommendation movies
-export const getRecom = (id) => {
+//get top rated movies
+export const getTop = (id) => {
     return fetch(
-        `https://api.themoviedb.org/3/movie/${id}/recommendations?api_key=${process.env.REACT_APP_TMDB_KEY}`
+        `https://api.themoviedb.org/3/movie/top_rated?api_key=${process.env.REACT_APP_TMDB_KEY}`
     ).then((response) => {
         if (!response.ok) {
             throw new Error(response.json().message);
@@ -103,10 +103,10 @@ export const getRecom = (id) => {
         });
 };
 
-//get top rated movies
-export const getTop = (id) => {
+//get up coming movies
+export const upComing = () => {
     return fetch(
-        `https://api.themoviedb.org/3/movie/top_rated?api_key=${process.env.REACT_APP_TMDB_KEY}`
+        `https://api.themoviedb.org/3/movie/upcoming?api_key=${process.env.REACT_APP_TMDB_KEY}`
     ).then((response) => {
         if (!response.ok) {
             throw new Error(response.json().message);
