@@ -104,7 +104,7 @@ export const getTop = (id) => {
 };
 
 //get up coming movies
-export const upComing = () => {
+export const getUpComing = () => {
     return fetch(
         `https://api.themoviedb.org/3/movie/upcoming?api_key=${process.env.REACT_APP_TMDB_KEY}`
     ).then((response) => {
