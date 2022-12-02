@@ -3,7 +3,7 @@
 Name: Shizuku Kokumai
 
 ## Overview.
-I added "POPULAR", "TOP RELATED", and "UP COMING" in the site header. In POPULAR, it shows the a list of the current popular movies on TMDB, and this list updates daily. In TOP RELATED, it shows a list of the top related movies on TMDB. In "UP COMING", it shows a list of upcoming movies in theatres. 
+I added "POPULAR", "TOP RELATED", and "UPCOMING" in the site header. In POPULAR, it shows the a list of the current popular movies on TMDB, and this list updates daily. In TOP RELATED, it shows a list of the top related movies on TMDB. In "UP COMING", it shows a list of upcoming movies in theatres. 
 
 ### New Pages.
 
