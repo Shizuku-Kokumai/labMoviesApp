@@ -3,19 +3,13 @@
 Name: Shizuku Kokumai
 
 ## Overview.
-I added "Popular movies list", "Top related movies list", and "Up coming movies list". 
-So the users can check them. 
+I added "POPULAR", "TOP RELATED", and "UP COMING" in the site header. In POPULAR, it shows the a list of the current popular movies on TMDB, and this list updates daily. In TOP RELATED, it shows a list of the top related movies on TMDB. In "UP COMING", it shows a list of upcoming movies in theatres. 
 
 ### New Pages.
 
-[ Provide a bullet-point list of the new pages you added to the Movies Fan add (include modifications to existing pages).]
-
-e.g.
-
-+ List of Trending movies.
-+ (Modified) Movie Details page - added chips for .....
-+ List of Actors.
-+ etc
++ List of popular movies.
++ List of top related movies
++ List of upcoming movies
 
 ### New Features.
 

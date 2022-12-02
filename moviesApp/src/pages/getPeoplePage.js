@@ -5,7 +5,7 @@ import Spinner from '../components/spinner';
 import PeopleTemplate from '../components/templatePeoplePage';
 //import AddToFavouritesIcon from '../components/cardIcons/addToFavourites'
 
-const PopularMoviesPage = (props) => {
+const GetPeoplePage = (props) => {
 
     const { data, error, isLoading, isError } = useQuery("people", getPeople)
 
@@ -27,4 +27,4 @@ const PopularMoviesPage = (props) => {
     );
 };
 
-export default PopularMoviesPage;
+export default GetPeoplePage;
