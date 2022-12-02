@@ -4,7 +4,7 @@ Name: Shizuku Kokumai
 
 ## Overview.
 I added "Popular movies list", "Top related movies list", and "Up coming movies list". 
-So the user can check them. 
+So the users can check them. 
 
 ### New Pages.
 
