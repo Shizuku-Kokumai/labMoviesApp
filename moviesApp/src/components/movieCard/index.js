@@ -29,16 +29,6 @@ export default function MovieCard({ movie, action }) {
         e.preventDefault();
         addToFavourites(movie);
     };
-    /*
-    const vote = movie.vote_average
-    if (vote <= 8) {
-        vote.color='green'
-    } else if (vote => 5) {
-        vote.color='orange'
-    } else {
-        vote.color='red'
-    }
-    */
 
     return (
         <Card sx={{ maxWidth: 345 }}>
