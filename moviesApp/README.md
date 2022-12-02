@@ -1,8 +1,10 @@
 # Web App Dev 2 - Assignment 1 - ReactJS app.
 
-Name: [your name]
+Name: Shizuku Kokumai
 
 ## Overview.
+I added "Popular movies list", "Top related movies list", and "Up coming movies list". 
+So the user can check them. 
 
 ### New Pages.
 
