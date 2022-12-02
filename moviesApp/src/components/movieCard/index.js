@@ -29,6 +29,16 @@ export default function MovieCard({ movie, action }) {
         e.preventDefault();
         addToFavourites(movie);
     };
+    /*
+    const vote = movie.vote_average
+    if (vote <= 8) {
+        vote.color='green'
+    } else if (vote => 5) {
+        vote.color='orange'
+    } else {
+        vote.color='red'
+    }
+    */
 
     return (
         <Card sx={{ maxWidth: 345 }}>
@@ -63,7 +73,11 @@ export default function MovieCard({ movie, action }) {
                         </Typography>
                     </Grid>
                     <Grid item xs={6}>
-                        <Typography variant="h6" component="p">
+                        <Typography variant="h6" component="p" color={
+                            movie.vote_average > 7 ? "red" 
+                            : "black"
+                        }
+                           >
                             <StarRateIcon fontSize="small" />
                             {"  "} {movie.vote_average}{" "}
                         </Typography>
