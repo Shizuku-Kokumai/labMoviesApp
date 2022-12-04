@@ -3,29 +3,26 @@
 Name: Shizuku Kokumai
 
 ## Overview.
-I added "POPULAR", "TOP RELATED", and "UPCOMING" in the site header. In POPULAR, it shows the a list of the current popular movies on TMDB, and this list updates daily. In TOP RELATED, it shows a list of the top related movies on TMDB. In "UP COMING", it shows a list of upcoming movies in theatres. And I changed the valuatoin color based on how well they're rated.
+I added "POPULAR", "TOP RELATED", and "UPCOMING" in the site header. In POPULAR, it shows the a list of the current popular movies on TMDB, and this list updates daily. In TOP RELATED, it shows a list of the top related movies on TMDB. In "UP COMING", it shows a list of upcoming movies in theatres. And I changed the valuatoin color based on how well they're rated. If it is less than 7, the color is blue. If it is greater than 7, the color is red.
 
 ### New Pages.
 
 + List of popular movies.
 + List of top related movies
 + List of upcoming movies
-+ Modified the voluation color in the home
++ Modified the voluation color
 
 ### New Features.
 
 [ Provide a bullet-point list of the __new features__ you added to the Movies Fan app.] 
- 
- e.g.
 
-+ Authentication (using Firebase)
-+ Create a fantasy movie (Basic)
-+ Sort movie list by release date (e.g. the Discover Movies page)
-+ etc
++ The color of the number of ratings depends on the height of the rating
 
 ## Setup requirements.
 
 [ Outline any non-standard setup steps necessary to run your app locally after cloning the repo.]
+
+Nothing.
 
 ## TMDB endpoints.
 
@@ -33,20 +30,17 @@ I added "POPULAR", "TOP RELATED", and "UPCOMING" in the site header. In POPULAR,
 
 e.g.
 
-+ /movies/{movie_id}/reviews - The user reviews or a movie.
-+ /movie/{movie_id}/similar - A list of similar movies. 
-+ /person/popular - A list of popular actors.
-+ /tv/{tv_id}/videos - The videos for a TV show. 
++ /movies/popularmovies - the list of popular muvies
++ /movies/toprelated - the list of top related movies
++ /movies/upcoming - the list of upcoming movies
 
 ## App Design.
 
 ### Component catalogue.
 
 [ Insert a screenshot from the Storybook UI, and highlight the stories that relate to your __new/modified components__ - see the example screenshot below.] .......
-
-e.g.
-
-![](./images/stories.png)
+This is the current popular movies page.
+![](./images/82.png)
 
 ### UI Design.
 
