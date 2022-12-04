@@ -40,7 +40,7 @@ e.g.
 
 [ Insert a screenshot from the Storybook UI, and highlight the stories that relate to your __new/modified components__ - see the example screenshot below.] .......
 
-![ ](./images/82.png)
+![ ](./src/images/82.png)
 >This is the current popular movies page.
 
 ### UI Design.
