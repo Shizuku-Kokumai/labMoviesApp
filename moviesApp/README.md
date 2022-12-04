@@ -39,8 +39,9 @@ e.g.
 ### Component catalogue.
 
 [ Insert a screenshot from the Storybook UI, and highlight the stories that relate to your __new/modified components__ - see the example screenshot below.] .......
-This is the current popular movies page.
-![](./images/82.png)
+
+![ ](./images/82.png)
+>This is the current popular movies page.
 
 ### UI Design.
 
